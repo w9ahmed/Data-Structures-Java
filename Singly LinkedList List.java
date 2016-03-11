@@ -14,6 +14,8 @@ public class IntSLList {
 		return head == tail;
 	}
 	
+	// Needs fixing also
+	// What if head is not null?
 	public void addToHead(int el) {
 		head = new IntSLLNode(el, head);
 		if(tail == null)
