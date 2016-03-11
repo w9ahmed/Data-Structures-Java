@@ -7,6 +7,9 @@ public class IntSLList {
 		head = tail = null;
 	} // end constructor
 	
+	// This part is wrong
+	// needs correction
+	// head can equal tail if also there is one element
 	public boolean isEmpty() {
 		return head == tail;
 	}
